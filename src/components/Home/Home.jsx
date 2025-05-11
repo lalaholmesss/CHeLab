@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faHeart} from '@fortawesome/free-solid-svg-icons'
+import ChemicalCards from './ChemicalCards'
 
 export default function Home () {
     return(
-        <div className="max-w-[1720px] bg-[#EEFFF7] px-[40px] flex flex-col font-[Poppins]">
+        <div className="max-w-[1720px] bg-[#EEFFF7] px-[40px] flex flex-col font-[Poppins] py-[32px]">
             <div className="flex items-center space-x-4 bg-[#f3fef9] p-4">
-                <div className="flex items-center border border-gray-300 rounded-full px-4 py-2 w-[300px] shadow-sm bg-white">
+                <div className="flex items-center border border-[#AAA5A5] rounded-full px-4 py-2 w-[400px] shadow-sm bg-white">
                     <FontAwesomeIcon icon={faMagnifyingGlass} className="text-gray-400 mr-2" />
                     <input
                     type="text"
@@ -13,10 +14,13 @@ export default function Home () {
                     className="w-full outline-none bg-transparent placeholder-gray-400"
                     />
                 </div>
-                <button className="cursor-pointer bg-[#00BF63] text-white font-semibold px-6 py-2 rounded-full shadow-md hover:bg-green-600 transition">
+                <button className="cursor-pointer bg-[#00BF63] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-600 transition">
                     Search
                 </button>
             </div>
+
+            <ChemicalCards />
+
             <div className="border-2 border-dashed border-[#00BF63] rounded-[50px] px-[40px] py-[32px] bg-white inline-block">
                 <div className="flex items-center mb-4 gap-[12px]">
                     <FontAwesomeIcon icon={faHeart} className="text-[#00BF63]"/>

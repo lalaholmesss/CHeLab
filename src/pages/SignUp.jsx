@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeftLong } from '@fortawesome/free-solid-svg-icons'
+import logo from "../assets/images/CheLab-logo2.png"
 
 export default function LoginPg() {
     return(
@@ -45,7 +46,7 @@ export default function LoginPg() {
                 </div>
 
                 <div className="bg-[#EEFFF7] flex flex-col justify-center align-center">
-                    <div className="flex align-center justify-center"><img src="src/assets/images/CheLab-logo2.png" alt="Logo" className="max-h-[80%]" /></div>
+                    <div className="flex align-center justify-center"><img src={logo} alt="Logo" className="max-h-[80%]" /></div>
                 </div>
             </div>
         </div>

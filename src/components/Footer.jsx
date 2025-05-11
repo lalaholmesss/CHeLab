@@ -1,18 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import logo from "../assets/images/CheLab-logo2.png"
+
 
 export default function Footer() {
     return (
-        <footer className="bg-white text-gray-800 py-10 mt-auto">
+        <footer className="bg-white text-gray-800 py-10 mt-auto px-[40px]">
             <div className="max-w-[1720px] mx-[32px] flex flex-col md:flex-row justify-between gap-10">
                 <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-4">
-                        <img
-                            src="src/assets/images/CheLab-logo.png"
-                            alt="Logo"
-                            className="w-14 h-14 object-contain"
-                        />
-                        <span className="text-3xl font-bold">CheLab</span>
+                    <div className="w-40">
+                        <img src={logo} alt="Logo" className="w-full h-auto" />
                     </div>
                     <p className="text-gray-600 text-sm max-w-md">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, nisi?
@@ -48,6 +45,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            
         </footer>
     );
 }

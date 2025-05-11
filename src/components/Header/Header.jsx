@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 import Navbar from "./Navbar"
+import logo from "../../assets/images/CheLab-logo2.png"
 
 export default function Header() {
     return(
-        <div className="max-w-[1720px] pt-7 mx-[32px] pb-3 ">
+        <div className="max-w-[1720px] pt-1 mx-[32px] pb-1">
             <div className="flex justify-between items-center">
                 <div className="w-40">
-                    <img src="src/assets/images/CheLab-logo2.png" alt="Logo" className="w-full h-auto" />
+                    <img src={logo} alt="Logo" className="w-full h-auto" />
                 </div>
                 <div>
                     <Navbar />

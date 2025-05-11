@@ -29,7 +29,7 @@ function App() {
         <Route path="/login" element={<LoginPg/>} />
         <Route path="/signup" element={<SignUp/>} />
       </Routes>
-      
+      {!hideHeaderFooter && <Footer />}
     </>
   )
 }
