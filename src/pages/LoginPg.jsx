@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeftLong } from '@fortawesome/free-solid-svg-icons'
 import logo from "../assets/images/CheLab-logo2.png"
+import googleLogo from "../assets/images/Google-logo.png"
+import appleLogo from "../assets/images/Apple-logo.png"
 
 export default function LoginPg() {
     return(
@@ -31,11 +33,11 @@ export default function LoginPg() {
 
                     <div className="flex justify-between gap-4 h-[32px]">
                         <button className="cursor-pointer border w-[190px] py-2 rounded-full flex items-center justify-center gap-2">
-                            <img src="src\assets\images\Google-logo.png" alt="Google" className="w-5 h-5" />
+                            <img src={googleLogo} alt="Google" className="w-5 h-5" />
                             <span className="text-xs">Sign in with Google</span>
                         </button>
                         <button className="cursor-pointer border w-[190px] py-2 rounded-full flex items-center justify-center gap-2">
-                            <img src="src\assets\images\Apple-logo.png" alt="Apple" className="w-5 h-5" />
+                            <img src={appleLogo} alt="Apple" className="w-5 h-5" />
                             <span className="text-xs">Sign in with Apple</span>
                         </button>
                     </div>
