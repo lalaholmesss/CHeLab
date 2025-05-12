@@ -22,6 +22,7 @@ export default function Comments () {
                 <button className="mt-2 px-4 cursor-pointer py-2 bg-[#1AC2EA] text-white rounded-lg"
                 onClick={handleSubmit}>Post</button>
             </div>
+            
             <div className="mt-6 space-y-3 ">
                 {submittedComment.map((c, index) => (
                 <div key={index} className="break-words p-3 bg-white rounded-lg">
