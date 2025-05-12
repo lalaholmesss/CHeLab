@@ -10,12 +10,12 @@ export default function Home () {
                     <FontAwesomeIcon icon={faMagnifyingGlass} className="text-gray-400 mr-2" />
                     <input
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Enter prompt..."
                     className="w-full outline-none bg-transparent placeholder-gray-400"
                     />
                 </div>
                 <button className="cursor-pointer bg-[#00BF63] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-600 transition">
-                    Search
+                    Ask
                 </button>
             </div>
 
