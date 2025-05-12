@@ -13,8 +13,8 @@ export default function Header() {
                     <Navbar />
                 </div>
                 <div className="flex flex-row justify-between gap-4">
-                    <button className="text-[#007bff] border border-[#007bff] bg-transparent hover:bg-[#007bff] hover:text-white py-[8px] px-[16px] rounded-lg m-auto transition-colors duration-200 cursor-pointer"><Link to="/login">Login</Link></button>
-                    <button className="text-[#007bff] border border-[#007bff] bg-transparent hover:bg-[#007bff] hover:text-white py-[8px] px-[16px] rounded-lg m-auto transition-colors duration-200 cursor-pointer"><Link to="/signup">Sign Up</Link></button>
+                    <button className="text-[#1AC2EA] border border-[#1AC2EA] bg-transparent hover:bg-[#1AC2EA] hover:text-white py-[8px] px-[16px] rounded-lg m-auto transition-colors duration-200 cursor-pointer"><Link to="/login">Login</Link></button>
+                    <button className="text-[#1AC2EA] border border-[#1AC2EA] bg-transparent hover:bg-[#1AC2EA] hover:text-white py-[8px] px-[16px] rounded-lg m-auto transition-colors duration-200 cursor-pointer"><Link to="/signup">Sign Up</Link></button>
                 </div>
             </div>
         </div>

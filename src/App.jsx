@@ -9,6 +9,7 @@ import Comments from "./pages/CommentsPg"
 import Footer from "./components/Footer"
 import LoginPg from "./pages/LoginPg"
 import SignUp from "./pages/SignUp"
+import InfoCard from "./pages/InfoCard"
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,7 @@ function App() {
         <Route path="/comments" element={<Comments/>} />
         <Route path="/login" element={<LoginPg/>} />
         <Route path="/signup" element={<SignUp/>} />
+        <Route path="/item/:index" element={<InfoCard/>}/>
       </Routes>
       {!hideHeaderFooter && <Footer />}
     </>
